@@ -21,7 +21,8 @@ def makeFakeCommits():
         os.system(f'git commit --date="{commit_date}" -m "{commit_message}"')
 
         # Delete files
-        deleteFiles()
+        deleteFiles()    # Push the changes to the remote repository
+    os.system('git push')
 
 def createFiles():
     with open('file1.txt', 'w') as file:
