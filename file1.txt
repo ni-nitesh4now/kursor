@@ -1,2 +1,0 @@
-This is file1.txt
-2022-01-08 <- Commit on 2022-01-08
